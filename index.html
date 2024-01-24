@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>O Mundo dos Livros</title>
+    <link rel="shortcut icon" href="./Leonardo_Diffusion_XL_logo_redonda_para_uma_pagina_sobre_livro_2-removebg-preview.png" type="image/x-icon">
+
+
+</head>
+
+<body>
+
+
+
+   <div class="circulo"></div>
+
+    <img src="./Leonardo_Diffusion_XL_logo_redonda_para_uma_pagina_sobre_livro_2-removebg-preview.png" alt="logo"
+        class="logo">
+
+
+    <div class="conteudo">
+        <div class="caixa-texto">
+            <h2>O mundo dos <span>Livros</span>: um lugar mágico onde a imaginação voa e o conhecimento se expande.</h2>
+            <p>Descubra os melhores livros e mergulhe em um mundo de histórias inesquecíveis!</p>
+            <button>Explorar livros</button>
+            
+        </div>
+        <div class="caixa-imagem">
+            <img src="./24861-600x923-removebg-preview.png" alt="e-assim-que-acaba" class="livro">
+        </div>
+    </div>
+
+    <div class="menu">
+        <img src="./a63338d20a81bdf650cecc71c33011b8-removebg-preview.png" class="livrinho verde">
+        <img src="./fe566cefc76ecea99edcf8d6ba7ceca4-removebg-preview.png" class="livrinho amarelo">
+        <img src="./R__1_-removebg-preview.png" class="livrinho rosa">
+    </div>
+
+</body>
+
+<script>
+
+    let circulo = document.querySelector(".circulo");
+    let img = document.querySelector(".livro");
+    let verde = document.querySelector(".livrinho.verde");
+    let amarelo = document.querySelector(".livrinho.amarelo");
+    let rosa = document.querySelector(".livrinho.rosa");
+    
+    verde.addEventListener('click', () => {
+        img.src = "./a63338d20a81bdf650cecc71c33011b8-removebg-preview.png";
+        circulo.style.background = "#40e0d0";
+    });
+    
+    amarelo.addEventListener('click', () => {
+        img.src = "./fe566cefc76ecea99edcf8d6ba7ceca4-removebg-preview.png";
+        circulo.style.background = "#333333";
+    });
+    
+    rosa.addEventListener('click', () => {
+        img.src = "./R__1_-removebg-preview.png";
+        circulo.style.background = "#f08080";
+    });
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </script>
+
+</html>
